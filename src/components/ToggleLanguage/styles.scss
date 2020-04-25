@@ -1,0 +1,21 @@
+.toggle-language {
+  display: flex;
+  justify-content: flex-end;
+
+  &__buttons {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__button {
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    line-height: 1;
+  }
+
+  &__button_active {
+    background: rgba(blue, 0.2);
+  }
+}

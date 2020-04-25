@@ -1,0 +1,48 @@
+.home-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  &__label-text {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &__label {
+    margin-bottom: 15px;
+  }
+
+  &__row {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px #a9a9a9;
+    border-radius: 5px;
+  }
+
+  &__button {
+    border: none;
+    cursor: pointer;
+  }
+
+  &__input {
+    height: 40px;
+    padding: 5px 10px;
+    flex: 1;
+    border: none;
+
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid green;
+    }
+  }
+}
